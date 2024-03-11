@@ -5,14 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <h1>Viktoria Zhylkova</h1>
-    <img src="img/Photo.jpg" width="350" height="450" alt="my photo">
-    <p>I am 18 years old and I'm <i>first year student</i> in <b> Khmelnytskyi National University </b> </p>
-    <hr>
-    <h2>Find me in socials:</h2>
+    <div class="wrapper">
+    <div class="sidebar">
+    <img src="img/Photo.jpg" width="370" height="480" alt="my photo">
+    <div class="sidebar-content">
+    <div class="contacts-container ">
+    <h2 class="contacts-title" >Find me in socials:</h2>
     <ul>
         <li>
             <a href="https://uk-ua.facebook.com/" target="_blank">
@@ -34,14 +41,20 @@
             </a>
         </li>
     </ul>
+    </div>
+    </div>
+    </div>
+    <div class="main-content">
+    <h1 class="my-name">Viktoria Zhylkova</h1>
+    <p class="my-descr">I am 18 years old and I'm <i>first year student</i> in <b> Khmelnytskyi National University </b> </p>
     <hr>
-    <h2>Interesting facts about me:</h2>
+    <h2 class="my-info">Interesting facts about me:</h2>
     <ol>
         <li><i>Enjoy travelling</i></li>
         <li>Love watching films</li>
         <li>to be continued...</li>
     </ol>
-    <h2><u>Some personal traits:</u></h2>
+    <h2 class="my-info"><u>Some personal traits:</u></h2>
     <ul>
         <li>Punctual </li>
         <li>Responsible</li>
@@ -49,6 +62,8 @@
         <li>Optimism</li>
         <li>Goal oriented</li>
     </ul>
+    </div>
+    </div>
 </body>
 
 </html>
